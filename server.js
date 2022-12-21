@@ -14,7 +14,7 @@ app.get("/", async (req, res) => {
 	try {
 		return res
 			.status(200)
-			.json({ shufersal: "http://localhost:5000/shufersal" });
+			.json({ shufersal: "https://busy-rose-bandicoot-tutu.cyclic.app" });
 	} catch (err) {
 		res.status(500).json({ message: err.message });
 	}

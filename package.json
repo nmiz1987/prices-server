@@ -1,0 +1,27 @@
+{
+	"name": "prices-server",
+	"version": "1.0.0",
+	"description": "my own links server",
+	"main": "server.js",
+	"type": "module",
+	"scripts": {
+		"server": "nodemon server.js",
+		"start": "node server.js"
+	},
+	"author": "Netanel Mizrahi",
+	"license": "MIT",
+	"dependencies": {
+		"axios": "^1.2.1",
+		"bcrypt": "^5.0.1",
+		"cheerio": "^1.0.0-rc.12",
+		"cors": "^2.8.5",
+		"express": "^4.18.1",
+		"nodemon": "^2.0.20",
+		"xml2js": "^0.4.23",
+		"zlib": "^1.0.5"
+	},
+	"keywords": [
+		"prices",
+		"server"
+	]
+}
